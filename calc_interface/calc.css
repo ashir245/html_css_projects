@@ -30,6 +30,9 @@ input {
     5px 8px 15px rgba(0, 0, 0, 0.3);
   cursor: pointer;
 }
+input:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
 .display {
   display: flex;
   justify-content: flex-end;
@@ -49,4 +52,10 @@ input {
 p {
   text-align: right;
   font-family: cursive;
+}
+
+input[type="button"][style="background-color: orange"]:hover,
+input[type="button"][style="background-color: red"]:hover,
+input[type="button"][style="background-color: rgba(255, 0, 0, 0.3)"]:hover {
+  background-color: lightcoral !important;
 }
