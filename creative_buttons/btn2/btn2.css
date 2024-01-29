@@ -47,5 +47,5 @@ a::after {
 }
 a:hover::before,
 a:hover::after {
-  transform: translateX(0);
+  transform: rotateX(0);
 }
