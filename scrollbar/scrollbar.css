@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  width: 30rem;
+  margin: 100px auto;
+  background-color: rgb(7, 7, 7);
+  color: white;
+  height: 30rem;
+  padding: 20px;
+}
+.scrollbar {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+}
+.content {
+  padding: 10px;
+}
